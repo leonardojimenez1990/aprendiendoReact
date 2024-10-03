@@ -3,6 +3,7 @@
 const arreglo = [1, 2, 3, 4];
 
 let arreglo2 = [...arreglo, 5 ];
+arreglo2[5] = 6;
 // arreglo2.push(5);
 
 const arreglo3 = arreglo2.map(function(numero){
